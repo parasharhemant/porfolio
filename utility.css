@@ -1,0 +1,52 @@
+@media (width <=745px) {
+    #home{
+        padding: 20px;
+    }
+    .para .img {
+        margin: auto;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .para .img .container {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+@media (width <= 610px) {
+    .card-a,.card-b{
+        flex-direction: column;
+    }
+    .card-a .card,.card-b .card{
+         width: 300px;
+    }
+    .skill-childs1 .box {
+        width: 350px;
+        height: fit-content;
+    }
+
+    .skill-childs1 .box img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 20px auto;
+    }
+ 
+  
+}
+
+@media (width <=515px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+  
+
+}
